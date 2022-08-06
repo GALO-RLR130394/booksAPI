@@ -1,6 +1,6 @@
 const { successResponse, errorResponse } = require("../middlewares/responses");
 
-const ReviewService = require('../helpers/reviEwservice');
+const ReviewService = require('../helpers/reviewService');
 const reviewService = ReviewService([]);
 
 module.exports = {
